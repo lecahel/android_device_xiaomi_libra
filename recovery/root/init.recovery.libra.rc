@@ -17,6 +17,3 @@ on fs
 
 on property:ro.crypto.state=encrypted
     start sbinqseecomd
-
-on property:init.svc.recovery=running
-    write /proc/synaptics_dsx/wake_gesture 1
